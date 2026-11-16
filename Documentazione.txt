@@ -1,0 +1,17 @@
+
+Classe Studente
+Rappresenta il singolo alunno e contiene i suoi dati e le sue operazioni.
+
+Dati anagrafici (nome, cognome, anno, indirizzo, sezione). Memorizzano le informazioni personali e la classe frequentata dallo studente.
+Gestione voti (numeroMaterie, voti[], indiceVoti). Creano l'elenco dei voti e tengono il conto di quanti voti sono stati inseriti.
+Costruttore Studente(...). Crea un nuovo studente assegnandogli i dati iniziali e preparando l'array vuoto per i voti.
+Metodo inserisciVoto(). Aggiunge un nuovo voto nell'array solo se è compreso tra 1 e 10.
+Metodi di calcolo (calcolaMedia, getVotoPiuAlto, getVotoPiuBasso). Calcolano la media aritmetica e trovano il voto massimo e minimo.
+Metodi di controllo (contaInsufficienti, haMediaSufficiente). Contano i voti sotto il 6 e verificano se la media totale è sufficiente.
+Metodo getDescrizione(). Restituisce una stringa riassuntiva con tutti i dati, i voti e la media dello studente.
+
+Classe TestStudente 
+
+È la classe principale 
+• Metodo main(). Crea due oggetti Studente, inserisce i loro voti, stampa i risultati e confronta chi ha la media più alta.
+• Relazione di dipendenza (uso). Nell'UML è la linea tratteggiata che indica che TestStudente usa la classe Studente per creare gli oggetti, senza però contenerla come attributo.
